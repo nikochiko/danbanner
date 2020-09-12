@@ -1,7 +1,6 @@
 import json
 
 import falcon
-import falcon.asgi
 
 import tg
 
@@ -29,7 +28,7 @@ class Webhook:
         resp.status = falcon.HTTP_200
 
 
-app = falcon.asgi.App()
+app = falcon.App()
 
 webhook = Webhook()
 
