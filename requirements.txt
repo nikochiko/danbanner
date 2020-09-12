@@ -1,0 +1,4 @@
+falcon==3.0.0a2
+urllib3==1.25.0
+uvicorn==0.11.8
+python-dotenv==0.14.0
